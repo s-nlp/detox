@@ -7,7 +7,7 @@ This repository contains the code and data for the paper "Text Detoxification us
 
 We suggest two models:
 - **CondBERT** --- a BERT-based model which identifies toxic words in a text and replaces them with neutral synonyms
-- **ParaGeDi** --- a paraphraser-based model which re-generates a text
+- **ParaGeDi** --- a paraphraser-based model which re-generates a text using additional style-informed LMs
 
 ## CondBERT
 
