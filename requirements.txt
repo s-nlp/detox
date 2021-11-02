@@ -6,3 +6,7 @@ nltk
 transformers
 fairseq
 sentencepiece
+keras_preprocessing
+flair
+scipy
+
