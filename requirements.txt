@@ -1,0 +1,8 @@
+tqdm
+numpy
+pandas
+torch
+nltk
+transformers
+fairseq
+sentencepiece
