@@ -38,6 +38,11 @@ Then run the script `metric.py`, as in the example below:
 python metric/metric.py --inputs data/test/test_1ok_toxic --preds data/test/model_outputs/condbert.txt
 ```
 
+## Acknowledgements
+This research was conducted under the framework
+of the joint MTS-Skoltech laboratory. We are grateful to the reviewers for their helpful suggestions
+which substantially improved this work.
+
 
 ## Citation
 
