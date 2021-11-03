@@ -3,7 +3,7 @@ Detoxification is an automatic transformation of a text such that:
 - text becomes non-toxic
 - the content of the text stays the same.
 
-This repository contains the code and data for the paper "Text Detoxification using Large Pre-trained Neural Models".
+This repository contains the code and data for the paper "[Text Detoxification using Large Pre-trained Neural Models](https://arxiv.org/abs/2109.08914)".
 
 We suggest two models:
 - **CondBERT** --- a BERT-based model which identifies toxic words in a text and replaces them with neutral synonyms
