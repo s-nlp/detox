@@ -39,9 +39,8 @@ python metric/metric.py --inputs data/test/test_1ok_toxic --preds data/test/mode
 ```
 
 ## Acknowledgements
-This research was conducted under the framework
-of the joint MTS-Skoltech laboratory. We are grateful to the reviewers for their helpful suggestions
-which substantially improved this work.
+This research was conducted under the framework of the [Joint MTS-Skoltech laboratory](https://sites.skoltech.ru/nlp/joint-mts-skoltech-laboratory/). 
+We are grateful to the reviewers for their helpful suggestions which substantially improved this work.
 
 
 ## Citation
@@ -49,10 +48,13 @@ which substantially improved this work.
 If you use our models or data, please cite the paper:
 
 ```
-@article{dale2021text,
-  title={Text Detoxification using Large Pre-trained Neural Models},
-  author={Dale, David and Voronov, Anton and Dementieva, Daryna and Logacheva, Varvara and Kozlova, Olga and Semenov, Nikita and Panchenko, Alexander},
-  journal={arXiv preprint arXiv:2109.08914},
-  year={2021}
+@inproceedings{dale-2021-text,
+    title = "Text Detoxification using Large Pre-trained Neural Models",
+    author = "Dale, David and Voronov, Anton and Dementieva, Daryna and Logacheva, Varvara and Kozlova, Olga and Semenov, Nikita and Panchenko, Alexander",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
 }
 ```
