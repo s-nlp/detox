@@ -9,6 +9,8 @@ We suggest two models:
 - **CondBERT** --- a BERT-based model which identifies toxic words in a text and replaces them with neutral synonyms
 - **ParaGeDi** --- a paraphraser-based model which re-generates a text using additional style-informed LMs
 
+If you have any questions about the models, the code, or the data, please do not hesitate to communicate via [GitHub issues](https://github.com/skoltech-nlp/detox/issues)!
+
 ## CondBERT
 
 The notebooks for reproducing the training and inference of this model in the folder [condBERT](/emnlp2021/style_transfer/condBERT).
