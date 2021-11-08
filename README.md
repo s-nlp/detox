@@ -3,7 +3,7 @@ Detoxification is an automatic transformation of a text such that:
 - text becomes non-toxic
 - the content of the text stays the same.
 
-This repository contains the code and data for the paper "[Text Detoxification using Large Pre-trained Neural Models](https://arxiv.org/abs/2109.08914)" ([video](https://youtu.be/knhIJ_e9Uyc)).
+This repository contains the code and data for the paper "[Text Detoxification using Large Pre-trained Neural Models](https://aclanthology.org/2021.emnlp-main.629/)" ([video](https://youtu.be/knhIJ_e9Uyc)).
 
 We suggest two models:
 - **CondBERT** --- a BERT-based model which identifies toxic words in a text and replaces them with neutral synonyms
@@ -50,13 +50,21 @@ We are grateful to the reviewers for their helpful suggestions which substantial
 If you use our models or data, please cite the paper:
 
 ```
-@inproceedings{dale-2021-text,
+@inproceedings{dale-etal-2021-text,
     title = "Text Detoxification using Large Pre-trained Neural Models",
-    author = "Dale, David and Voronov, Anton and Dementieva, Daryna and Logacheva, Varvara and Kozlova, Olga and Semenov, Nikita and Panchenko, Alexander",
-    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    author = "Dale, David  and
+      Voronov, Anton  and
+      Dementieva, Daryna  and
+      Logacheva, Varvara  and
+      Kozlova, Olga  and
+      Semenov, Nikita  and
+      Panchenko, Alexander",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
     month = nov,
     year = "2021",
-    address = "Online",
+    address = "Online and Punta Cana, Dominican Republic",
     publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.629",
+    pages = "7979--7996",
 }
 ```
