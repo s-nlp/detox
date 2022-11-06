@@ -218,13 +218,24 @@ class GediAdapter(GenerationMixin):
     # todo: clarify it
     def get_output_embeddings(self):
         return True
+
     @property
     def config(self):
         return self.model.config
+
     def get_encoder(self):
         return self.model.get_encoder()
+
     def parameters(self):
         return self.model.parameters()
+
     @property
     def device(self):
         return self.model.device
+
+    @property
+    def main_input_name(self):
+        return self.model.main_input_name
+
+    def forward(self, attention_mask=None, **kwargs):
+        pass
