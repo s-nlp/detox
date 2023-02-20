@@ -3,10 +3,9 @@ numpy
 pandas
 torch
 nltk
-transformers
+transformers==4.11.1
 fairseq
 sentencepiece
 keras_preprocessing
 flair
 scipy
-
