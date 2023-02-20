@@ -6,10 +6,14 @@ Detoxification is an automatic transformation of a text such that:
 This repository contains the code and data for the paper "[Text Detoxification using Large Pre-trained Neural Models](https://aclanthology.org/2021.emnlp-main.629/)" ([video](https://youtu.be/knhIJ_e9Uyc)).
 
 We suggest two models:
-- **CondBERT** --- a BERT-based model which identifies toxic words in a text and replaces them with neutral synonyms
-- **ParaGeDi** --- a paraphraser-based model which re-generates a text using additional style-informed LMs
+- **CondBERT** — a BERT-based model which identifies toxic words in a text and replaces them with neutral synonyms
+- **ParaGeDi** — a paraphraser-based model which re-generates a text using additional style-informed LMs
 
-If you have any questions about the models, the code, or the data, please do not hesitate to communicate via [GitHub issues](https://github.com/skoltech-nlp/detox/issues)!
+**If you have any questions about the models, the code, or the data, please do not hesitate to communicate via [GitHub issues](https://github.com/skoltech-nlp/detox/issues)!**.
+
+If you want the fastest way to run the inference of these models, you can run 
+[this Colab notebook](https://colab.research.google.com/drive/1HEUgKO100rSuDcv80prD3dRZSjKztTqk?usp=sharing) 
+that puts together some of the code from this repository. 
 
 ## CondBERT
 
@@ -26,7 +30,7 @@ The notebooks for reproducing the data collection and training the model on it a
 The original ParaNMT corpus (50M sentence pairs) can be downloaded from the authors page: https://www.cs.cmu.edu/~jwieting/. 
 The filtered ParaNMT-detox corpus (500K sentence pairs) can be downloaded from [here](https://github.com/skoltech-nlp/detox/releases/download/emnlp2021/filtered_paranmt.zip).
 
-The paraphraser trained on this filtered corpus is available at https://huggingface.co/SkolkovoInstitute/t5-paranmt-detox. 
+The paraphraser trained on this filtered corpus is available at https://huggingface.co/s-nlp/t5-paranmt-detox. 
 
 ## Evaluation
 
