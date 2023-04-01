@@ -4,7 +4,7 @@ pandas
 torch
 nltk
 transformers==4.11.1
-fairseq
+fairseq==0.10.0
 sentencepiece
 keras_preprocessing
 flair==0.11
